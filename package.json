@@ -23,4 +23,9 @@
     "url": "https://github.com/seayport/FriendFinder/issues"
   },
   "homepage": "https://github.com/seayport/FriendFinder#readme"
+},
+{
+  "engines": {
+   "node": "6.10.1"
+ }
 }

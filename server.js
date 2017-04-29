@@ -14,6 +14,7 @@ var PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
 //BodyParser makes it possible for our server to interpret data sent to it.
+app.use( "/app", express.static( "app") );
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
